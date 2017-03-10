@@ -6,4 +6,19 @@
 .layout-transparent .mdl-layout__drawer-button {
   color: purple;
   }
+.card-rectangle.mdl-card {
+  width: 430px;
+  height: 680px;
+}
+.card-rectangle > .mdl-card__title {
+  color: black;
+}
+
+.mdl-cell > .mdl-card{
+    width: 100%;
+}
+
+.card-rectangle > .mdl-card__media{
+    width: 100%;
+}
 
