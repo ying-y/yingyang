@@ -1,0 +1,9 @@
+.layout-transparent {
+  background: url('../image/background.png') center / cover;
+}
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-navigation__link,
+.layout-transparent .mdl-layout__drawer-button {
+  color: purple;
+  }
+
