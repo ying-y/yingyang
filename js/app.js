@@ -26,3 +26,12 @@ function renderACTIVITIES(ACTIVITIES) {
 }
 
 renderACTIVITIES(ACTIVITIES);
+
+var querytitle=document.querySelector("#position-input");
+querytitle.addEventListener("input",function(){
+    var filtered=ACTIVITIES.filter(function(a){
+        return a.position.toLowerCase().indexOf(querytitle.value.toLowerCase())>-1;
+    })
+    renderACTIVITIES(filtered);
+ }
+)
