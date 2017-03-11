@@ -21,4 +21,12 @@
 .card-rectangle > .mdl-card__media{
     width: 100%;
 }
-
+.mdl-data-table{
+    width:80%;
+    height:60%;
+    position:relative;
+    top:50%;
+    left:8%;
+    margin-left:30px;
+    margin-top:30px;
+}
